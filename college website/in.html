@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fueling Life with Nutrition</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #2c7a7b;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #285e61;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+    nav a:hover,
+    nav a.active {
+      text-decoration: underline;
+      background-color: #1d4e4f;
+      border-radius: 5px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c7a7b;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #edf2f7;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .section img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto 20px auto;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c7a7b;
+      color: white;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #2c7a7b;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #225e5f;
+    }
+    @media (max-width: 600px) {
+      nav {
+        gap: 10px;
+      }
+      header h1 {
+        font-size: 22px;
+      }
+      .section {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Nutrition Icon" />
+  <h1>Fueling Life with Nutrition</h1>
+  <p>Choose nutrition over junk — live better, longer, and stronger!</p>
+</header>
+
+<nav>
+  <a href="#home" class="active">Home</a>
+  <a href="#alternatives">Alternatives</a>
+  <a href="#diseases">Diseases</a>
+  <a href="#recipes">Recipes</a>
+  <a href="#solutions">Solutions</a>
+  <a href="#kids">Kids</a>
+  <a href="#benefits">Benefits</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="section" id="home">
+  <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Healthy lifestyle" />
+  <h2>Welcome to a Healthier You</h2>
+  <p>Say goodbye to junk food and embrace a nutritious lifestyle. This platform offers insights into how good food fuels your life and how you can swap harmful junk with healthier, tasty alternatives.</p>
+</div>
+
+<div class="section" id="alternatives">
+  <img src="https://media.istockphoto.com/id/1253414265/photo/healthy-and-unhealthy-food-background-from-fruits-and-vegetables-vs-fast-food-sweets-and.jpg?s=612x612&w=0&k=20&c=0I3ohWJksP9YJfq-PT0jtSGSbQfbAXL-75w1RW7sN5Y=" alt="Healthy and unhealthy food comparison" />
+  <h2>Healthy Alternatives to Junk Food</h2>
+  <p>Finding alternatives to junk food doesn't mean sacrificing taste. There are countless healthy swaps that are not only better for your body but can be just as satisfying.</p>
+  <div class="grid">
+    <div class="card"><strong>Instead of:</strong> Soda<br><strong>Try:</strong> Infused Water or Fresh Juice</div>
+    <div class="card"><strong>Instead of:</strong> Chips<br><strong>Try:</strong> Baked Veggie Chips or Nuts</div>
+    <div class="card"><strong>Instead of:</strong> Ice Cream<br><strong>Try:</strong> Greek Yogurt with Fruits</div>
+    <div class="card"><strong>Instead of:</strong> Candy<br><strong>Try:</strong> Dates, Berries, or Dark Chocolate</div>
+    <div class="card"><strong>Instead of:</strong> Fried Chicken<br><strong>Try:</strong> Grilled or Air-Fried Chicken</div>
+    <div class="card"><strong>Instead of:</strong> White Bread<br><strong>Try:</strong> Whole Grain or Multigrain Bread</div>
+    <div class="card"><strong>Instead of:</strong> Creamy Pasta<br><strong>Try:</strong> Veggie Pasta with Olive Oil & Herbs</div>
+    <div class="card"><strong>Instead of:</strong> Pizza<br><strong>Try:</strong> Cauliflower Crust Veggie Pizza</div>
+    <div class="card"><strong>Instead of:</strong> Sugary Cereal<br><strong>Try:</strong> Oats with Fruits & Nuts</div>
+    <div class="card"><strong>Instead of:</strong> Milkshake<br><strong>Try:</strong> Banana Smoothie with Almond Milk</div>
+    <div class="card"><strong>Instead of:</strong> Cookies<br><strong>Try:</strong> Homemade Almond-Date Bars</div>
+    <div class="card"><strong>Instead of:</strong> French Fries<br><strong>Try:</strong> Baked Sweet Potato Fries</div>
+    <div class="card"><strong>Instead of:</strong> Salty Fish Sauces<br><strong>Try:</strong> Olive oil with herbs, vinegar-based fish</div>
+    <div class="card"><strong>Instead of:</strong> Meat<br><strong>Try:</strong> Grilled Lean Meats</div>
+    <div class="card"><strong>Instead of:</strong> Sweets<br><strong>Try:</strong> Lightly Sweetened Fruits</div>
+  </div>
+</div>
+
+<div class="section" id="diseases">
+  <img src="https://www.careinsurance.com/upload_master/media/posts/August2024/nutritional-deficiency-diseases.webp" alt="Nutritional Deficiency Diseases" />
+  <h2>Diseases Caused by Junk Food</h2>
+  <p>Consuming excessive junk food can lead to a range of chronic and life-threatening health conditions.</p>
+  <ul>
+    <li><strong>Obesity</strong><br><em>Symptoms:</em> Excess body fat, fatigue, breathlessness, joint pain.</li>
+    <li><strong>Type 2 Diabetes</strong><br><em>Symptoms:</em> Frequent urination, excessive thirst, slow wound healing, fatigue.</li>
+    <li><strong>Heart Disease</strong><br><em>Symptoms:</em> Chest pain, shortness of breath, irregular heartbeat, fatigue.</li>
+    <li><strong>Fatty Liver</strong><br><em>Symptoms:</em> Abdominal pain, fatigue, enlarged liver.</li>
+    <li><strong>High Blood Pressure</strong><br><em>Symptoms:</em> Headaches, dizziness, nosebleeds.</li>
+    <li><strong>Digestive Disorders</strong><br><em>Symptoms:</em> Bloating, constipation, acid reflux.</li>
+    <li><strong>Dental Issues</strong><br><em>Symptoms:</em> Tooth decay, gum inflammation.</li>
+    <li><strong>Depression and Anxiety</strong><br><em>Symptoms:</em> Sadness, fatigue, appetite or sleep issues.</li>
+  </ul>
+</div>
+<div class="section" id="recipes">
+  <img src="https://images.pexels.com/photos/1640776/pexels-photo-1640776.jpeg" alt="Healthy homemade recipes" />
+  <h2>Healthy Homemade Recipes</h2>
+  <p>Wholesome meals prepared at home ensure quality ingredients and balanced nutrition. These easy-to-make recipes will support your health while satisfying your cravings.</p>
+  <ul>
+    <li><strong>Oatmeal Energy Bites:</strong> Rolled oats, peanut butter, honey, chia seeds, and dark chocolate chips.</li>
+    <li><strong>Veggie Stir-Fry:</strong> Colorful veggies sautéed in olive oil, garlic, and soy sauce over brown rice.</li>
+    <li><strong>Chickpea Salad:</strong> Chickpeas, cucumber, tomato, onion, lemon juice, and olive oil.</li>
+    <li><strong>Baked Salmon:</strong> Seasoned with herbs and lemon, served with steamed greens.</li>
+    <li><strong>Fruit Smoothie:</strong> Blend banana, berries, spinach, and almond milk.</li>
+    <li><strong>Stuffed Bell Peppers:</strong> Filled with quinoa, beans, tomatoes, and herbs.</li>
+    <li><strong>Lentil Soup:</strong> Carrots, onions, celery, tomatoes, and spices cooked with lentils.</li>
+  </ul>
+</div>
+
+<div class="section" id="solutions">
+  <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg" alt="Healthy eating tips" />
+  <h2>Healthy Eating Solutions</h2>
+  <p>Transitioning to healthy eating can be simple and enjoyable with a few effective strategies. Small changes lead to big results over time.</p>
+  <ul>
+    <li>Meal Prep with Whole Foods</li>
+    <li>Follow a Balanced Plate Model (½ Veggies, ¼ Protein, ¼ Grains)</li>
+    <li>Drink Plenty of Water</li>
+    <li>Read Nutrition Labels</li>
+    <li>Practice Mindful Eating</li>
+    <li>Limit Added Sugars and Sodium</li>
+    <li>Use Smaller Plates to Avoid Overeating</li>
+  </ul>
+</div>
+
+<div class="section" id="kids">
+  <img src="https://www.complan.in/wp-content/uploads/2024/11/healthy-eating-plate.jpg" alt="Healthy Eating Plate for Kids" />
+  <h2>Nutrition for Kids</h2>
+  <p>Providing children with proper nutrition is essential for their growth, development, and immune health. A well-balanced diet should include:</p>
+  <ul>
+    <li>Whole grains like oats, brown rice, and whole wheat bread</li>
+    <li>Colorful fruits and vegetables every day</li>
+    <li>Dairy or dairy alternatives for calcium and bone strength</li>
+    <li>Protein-rich foods like eggs, beans, and lean meats</li>
+    <li>Healthy fats from nuts, seeds, and avocados</li>
+    <li>Plenty of water and limited sugary drinks</li>
+  </ul>
+  <p>Encourage fun with food — use cookie cutters for fruits, create food faces, and involve kids in meal prep!</p>
+</div>
+
+<div class="section" id="benefits">
+  <img src="https://www.uspm.com/wp-content/uploads/2021/04/uspm_feature_healthyeatinglife.jpg" alt="Nutritional Benefits" />
+  <h2>Benefits of Good Nutrition</h2>
+  <p>A nutritious diet offers a wide range of physical, mental, and emotional benefits. It helps your body function optimally, strengthens your immune system, and enhances your quality of life.</p>
+  <div class="grid">
+    <div class="card">Improved Energy Levels</div>
+    <div class="card">Better Mental Clarity</div>
+    <div class="card">Weight Control</div>
+    <div class="card">Reduced Risk of Chronic Diseases</div>
+    <div class="card">Enhanced Immune Function</div>
+    <div class="card">Healthy Skin and Hair</div>
+    <div class="card">Longer Lifespan</div>
+    <div class="card">Better Sleep Quality</div>
+    <div class="card">Improved Mood and Emotional Well-being</div>
+  </div>
+</div>
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or want to know more about healthy nutrition, feel free to reach out!</p>
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2025 Fueling Life with Nutrition. All rights reserved.</p>
+</footer>
+
+<script>
+  // Show only the selected section on load
+  const sections = document.querySelectorAll('.section');
+  const navLinks = document.querySelectorAll('nav a');
+
+  function showSection(id) {
+    sections.forEach(section => {
+      section.style.display = section.id === id ? 'block' : 'none';
+    });
+    navLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+    });
+  }
+
+  // On initial load, show 'home'
+  showSection('home');
+
+  // Add click listeners to nav links
+  navLinks.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const id = link.getAttribute('href').substring(1);
+      showSection(id);
+    });
+  });
+
+  // Contact form alert
+  function submitForm(e) {
+    e.preventDefault();
+    alert("Thank you for reaching out! We'll get back to you soon.");
+  }
+</script>
+
+</body>
+</html>
